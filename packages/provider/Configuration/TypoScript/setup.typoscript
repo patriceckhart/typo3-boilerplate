@@ -1,0 +1,31 @@
+page {
+
+    includeCSSLibs {
+
+    }
+
+    includeCSS {
+        providerCSS = EXT:provider/Resources/Public/Styles/main.scss
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        jqueryJS = EXT:provider/Resources/Public/JavaScript/jquery-3.6.1.min.js
+        providerJS = EXT:provider/Resources/Public/JavaScript/main.js
+    }
+}
+
+config {
+    no_cache = 0
+}

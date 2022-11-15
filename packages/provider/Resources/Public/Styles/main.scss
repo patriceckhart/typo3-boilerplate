@@ -1,0 +1,41 @@
+@import "variables";
+
+@mixin transition($property) { transition: all $property; -webkit-transition: all $property; -moz-transition: all $property; }
+@mixin scale($propertyScale) { -webkit-transform: scale($propertyScale); -moz-transform: scale($propertyScale); -ms-transform: scale($propertyScale); -o-transform: scale($propertyScale); transform: scale($propertyScale); }
+
+::-moz-selection { background: $primary; text-shadow: none; color:#FFF; }
+::selection { background: $primary; text-shadow: none; color:#FFF; }
+
+body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+strong { }
+
+h1, h2, h3, h4, h5, h6 { }
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+
+p {
+  &:last-child { margin-bottom:0; }
+}
+
+.img-fluid { width:100%; }
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
